@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "description": "SmallBusinessResource Console Application",
+  "authors": [ "migra" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Newtonsoft.Json": "8.0.2"
+  },
+
+  "commands": {
+    "SmallBusinessResource": "SmallBusinessResource"
+  },
+
+  "frameworks": {
+    "dnx46": {
+      "dependencies": {
+        "System.Net.Http": "4.0.1-rc2-23818"
+      }
+    }
+  }
+}
